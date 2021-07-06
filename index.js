@@ -4,8 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
  
-    document.getElementById('text').innerText =  "This is really cool!";
-
+    // document.querySelector("p").textContent =  "This is really cool!";
+document.getElementById("text").innerHTML =  "This is really cool!"
+    
 
 
 
